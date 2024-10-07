@@ -5,8 +5,8 @@
   "description": "Dein kostenloses Streaming-Erlebnis – 100% werbefrei!",
   "resources": [
     "catalog",
-    "stream",
-    "meta"
+    "meta",
+    "stream"
   ],
   "types": ["movie"],
   "catalogs": [
@@ -14,160 +14,160 @@
       "type": "movie",
       "id": "filmfrei_movies",
       "name": "FilmFrei Filme",
-      "extra": [{ "name": "search" }]
+      "extra": [{"name": "search"}]
     }
   ],
   "behaviorHints": {
     "adult": false
   },
-  "catalog": {
-    "filmfrei_movies": [
-      {
-        "id": "deadpool_wolverine_2024",
-        "type": "movie",
-        "name": "Deadpool & Wolverine",
-        "poster": "https://cdn.kinocheck.com/i/w=1200/d3mx9y2anl.jpg",
-        "background": "https://cdn.kinocheck.com/i/w=1200/d3mx9y2anl.jpg",
-        "description": "Deadpool & Wolverine (2024)",
-        "releaseInfo": "2024"
-      },
-      {
-        "id": "john_wick_2014",
-        "type": "movie",
-        "name": "John Wick",
-        "poster": "https://cdn.kinocheck.com/i/w=1200/pvatm0owmf.jpg",
-        "background": "https://cdn.kinocheck.com/i/w=1200/pvatm0owmf.jpg",
-        "description": "John Wick (2014)",
-        "releaseInfo": "2014"
-      },
-      {
-        "id": "elvis_2022",
-        "type": "movie",
-        "name": "Elvis",
-        "poster": "https://cdn.kinocheck.com/i/j7g8i57dlw.jpg",
-        "background": "https://cdn.kinocheck.com/i/j7g8i57dlw.jpg",
-        "description": "Elvis (2022)",
-        "releaseInfo": "2022"
-      },
-      {
-        "id": "harry_potter_philosophers_stone_2001",
-        "type": "movie",
-        "name": "Harry Potter und der Stein der Weisen",
-        "poster": "https://cdn.kinocheck.com/i/w=1200/jz24pl19ny.jpg",
-        "background": "https://cdn.kinocheck.com/i/w=1200/jz24pl19ny.jpg",
-        "description": "Harry Potter und der Stein der Weisen (2001)",
-        "releaseInfo": "2001"
-      },
-      {
-        "id": "a_quiet_place_day_one_2024",
-        "type": "movie",
-        "name": "A Quiet Place: Tag Eins",
-        "poster": "https://cdn.kinocheck.com/i/w=1200/byu6b224j7.jpg",
-        "background": "https://cdn.kinocheck.com/i/w=1200/byu6b224j7.jpg",
-        "description": "A Quiet Place: Tag Eins (2024)",
-        "releaseInfo": "2024"
-      },
-      {
-        "id": "a_quiet_place_2_2020",
-        "type": "movie",
-        "name": "A Quiet Place 2",
-        "poster": "https://cdn.kinocheck.com/i/w=1200/sjnlbqo4z5.jpg",
-        "background": "https://cdn.kinocheck.com/i/w=1200/sjnlbqo4z5.jpg",
-        "description": "A Quiet Place 2 (2020)",
-        "releaseInfo": "2020"
-      },
-      {
-        "id": "a_quiet_place_2018",
-        "type": "movie",
-        "name": "A Quiet Place",
-        "poster": "https://cdn.kinocheck.com/i/jjttfkyc9f.jpg",
-        "background": "https://cdn.kinocheck.com/i/jjttfkyc9f.jpg",
-        "description": "A Quiet Place (2018)",
-        "releaseInfo": "2018"
-      },
-      {
-        "id": "shes_the_man_2006",
-        "type": "movie",
-        "name": "She's the Man – Voll mein Typ!",
-        "poster": "https://i.ebayimg.com/images/g/y9wAAOSwqsxkyiHn/s-l1200.jpg",
-        "background": "https://i.ebayimg.com/images/g/y9wAAOSwqsxkyiHn/s-l1200.jpg",
-        "description": "She's the Man – Voll mein Typ! (2006)",
-        "releaseInfo": "2006"
-      }
-    ]
-  },
-  "stream": {
-    "deadpool_wolverine_2024": [
-      {
-        "title": "Deadpool & Wolverine",
-        "url": "https://3jtpuy07im.swiftload.io/serve/3/vh74qihcjvc/zzWPTyKzZ90t55yFb5ONjw/1728178184/vh74qihcjvc//master.m3u8",
-        "behaviorHints": {
-          "notWebReady": true
+  "background": "https://cdn.kinocheck.com/i/w=1200/d3mx9y2anl.jpg",
+  "logo": "https://cdn.kinocheck.com/i/w=1200/d3mx9y2anl.jpg",
+  "contactEmail": "support@filmfrei.example.com",
+  "idPrefixes": ["filmfrei_"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "filmfrei_catalog",
+      "name": "FilmFrei Katalog",
+      "extra": [{"name": "search"}]
+    }
+  ],
+  "movieContent": [
+    {
+      "id": "filmfrei_deadpool_wolverine_2024",
+      "type": "movie",
+      "name": "Deadpool & Wolverine",
+      "poster": "https://cdn.kinocheck.com/i/w=1200/d3mx9y2anl.jpg",
+      "background": "https://cdn.kinocheck.com/i/w=1200/d3mx9y2anl.jpg",
+      "description": "Deadpool & Wolverine (2024)",
+      "releaseInfo": "2024",
+      "runtime": "2 h 7 min",
+      "streams": [
+        {
+          "title": "Deadpool & Wolverine",
+          "url": "https://3jtpuy07im.swiftload.io/serve/3/vh74qihcjvc/zzWPTyKzZ90t55yFb5ONjw/1728178184/vh74qihcjvc//master.m3u8",
+          "behaviorHints": {
+            "notWebReady": true
+          }
         }
-      }
-    ],
-    "john_wick_2014": [
-      {
-        "title": "John Wick",
-        "url": "https://3jtpuy07im.swiftload.io/serve/3/jnmljrug6l9/UMwOfUmTWiknnKfB-lpIbA/1725396613/jnmljrug6l9//master.m3u8",
-        "behaviorHints": {
-          "notWebReady": true
+      ]
+    },
+    {
+      "id": "filmfrei_john_wick_2014",
+      "type": "movie",
+      "name": "John Wick",
+      "poster": "https://cdn.kinocheck.com/i/w=1200/pvatm0owmf.jpg",
+      "background": "https://cdn.kinocheck.com/i/w=1200/pvatm0owmf.jpg",
+      "description": "John Wick (2014)",
+      "releaseInfo": "2014",
+      "runtime": "1 h 41 min",
+      "streams": [
+        {
+          "title": "John Wick",
+          "url": "https://3jtpuy07im.swiftload.io/serve/3/jnmljrug6l9/UMwOfUmTWiknnKfB-lpIbA/1725396613/jnmljrug6l9//master.m3u8",
+          "behaviorHints": {
+            "notWebReady": true
+          }
         }
-      }
-    ],
-    "elvis_2022": [
-      {
-        "title": "Elvis",
-        "url": "https://3jtpuy07im.swiftload.io/serve/3/42t6g8weimw/hhOzTyMWmzkPc5LTBQtCBg/1725303013/42t6g8weimw//master.m3u8",
-        "behaviorHints": {
-          "notWebReady": true
+      ]
+    },
+    {
+      "id": "filmfrei_elvis_2022",
+      "type": "movie",
+      "name": "Elvis",
+      "poster": "https://cdn.kinocheck.com/i/j7g8i57dlw.jpg",
+      "background": "https://cdn.kinocheck.com/i/j7g8i57dlw.jpg",
+      "description": "Elvis (2022)",
+      "releaseInfo": "2022",
+      "runtime": "2 h 39 min",
+      "streams": [
+        {
+          "title": "Elvis",
+          "url": "https://3jtpuy07im.swiftload.io/serve/3/42t6g8weimw/hhOzTyMWmzkPc5LTBQtCBg/1725303013/42t6g8weimw//master.m3u8",
+          "behaviorHints": {
+            "notWebReady": true
+          }
         }
-      }
-    ],
-    "harry_potter_philosophers_stone_2001": [
-      {
-        "title": "Harry Potter und der Stein der Weisen",
-        "url": "https://3jtpuy07im.swiftload.io/serve/3/5uhykxfw6qv/OiGE2XFe27wTjEt0NI2BBg/1725396564/5uhykxfw6qv//master.m3u8",
-        "behaviorHints": {
-          "notWebReady": true
+      ]
+    },
+    {
+      "id": "filmfrei_harry_potter_philosophers_stone_2001",
+      "type": "movie",
+      "name": "Harry Potter und der Stein der Weisen",
+      "poster": "https://cdn.kinocheck.com/i/w=1200/jz24pl19ny.jpg",
+      "background": "https://cdn.kinocheck.com/i/w=1200/jz24pl19ny.jpg",
+      "description": "Harry Potter und der Stein der Weisen (2001)",
+      "releaseInfo": "2001",
+      "runtime": "2 h 32 min",
+      "streams": [
+        {
+          "title": "Harry Potter und der Stein der Weisen",
+          "url": "https://3jtpuy07im.swiftload.io/serve/3/5uhykxfw6qv/OiGE2XFe27wTjEt0NI2BBg/1725396564/5uhykxfw6qv//master.m3u8",
+          "behaviorHints": {
+            "notWebReady": true
+          }
         }
-      }
-    ],
-    "a_quiet_place_day_one_2024": [
-      {
-        "title": "A Quiet Place: Tag Eins",
-        "url": "https://3jtpuy07im.swiftload.io/serve/3/x71xoesgd4m/0yzOMezycVN1SGfHIvnNYw/1728050148/x71xoesgd4m//master.m3u8",
-        "behaviorHints": {
-          "notWebReady": true
+      ]
+    },
+    {
+      "id": "filmfrei_a_quiet_place_day_one_2024",
+      "type": "movie",
+      "name": "A Quiet Place: Tag Eins",
+      "poster": "https://cdn.kinocheck.com/i/w=1200/byu6b224j7.jpg",
+      "background": "https://cdn.kinocheck.com/i/w=1200/byu6b224j7.jpg",
+      "description": "A Quiet Place: Tag Eins (2024)",
+      "releaseInfo": "2024",
+      "runtime": "1 h 39 min",
+      "streams": [
+        {
+          "title": "A Quiet Place: Tag Eins",
+          "url": "https://3jtpuy07im.swiftload.io/serve/3/x71xoesgd4m/0yzOMezycVN1SGfHIvnNYw/1728050148/x71xoesgd4m//master.m3u8",
+          "behaviorHints": {
+            "notWebReady": true
+          }
         }
-      }
-    ],
-    "a_quiet_place_2_2020": [
-      {
-        "title": "A Quiet Place 2",
-        "url": "https://3jtpuy07im.swiftload.io/serve/3/fyv99drtzr/oKHWx3qg1XA1-H_9O3m6Sg/1728219645/fyv99drtzr//master.m3u8",
-        "behaviorHints": {
-          "notWebReady": true
+      ]
+    },
+    {
+      "id": "filmfrei_a_quiet_place_2_2020",
+      "type": "movie",
+      "name": "A Quiet Place 2",
+      "poster": "https://cdn.kinocheck.com/i/w=1200/sjnlbqo4z5.jpg",
+      "background": "https://cdn.kinocheck.com/i/w=1200/sjnlbqo4z5.jpg",
+      "description": "A Quiet Place 2 (2020)",
+      "releaseInfo": "2020",
+      "runtime": "1 h 37 min",
+      "streams": [
+        {
+          "title": "A Quiet Place 2",
+          "url": "https://3jtpuy07im.swiftload.io/serve/3/fyv99drtzr/oKHWx3qg1XA1-H_9O3m6Sg/1728219645/fyv99drtzr//master.m3u8",
+          "behaviorHints": {
+            "notWebReady": true
+          }
         }
-      }
-    ],
-    "a_quiet_place_2018": [
-      {
-        "title": "A Quiet Place",
-        "url": "",
-        "behaviorHints": {
-          "notWebReady": true
-        }
-      }
-    ],
-    "shes_the_man_2006": [
-      {
-        "title": "She's the Man – Voll mein Typ!",
-        "url": "",
-        "behaviorHints": {
-          "notWebReady": true
-        }
-      }
-    ]
-  }
+      ]
+    },
+    {
+      "id": "filmfrei_a_quiet_place_2018",
+      "type": "movie",
+      "name": "A Quiet Place",
+      "poster": "https://cdn.kinocheck.com/i/jjttfkyc9f.jpg",
+      "background": "https://cdn.kinocheck.com/i/jjttfkyc9f.jpg",
+      "description": "A Quiet Place (2018)",
+      "releaseInfo": "2018",
+      "runtime": "1 h 30 min",
+      "streams": []
+    },
+    {
+      "id": "filmfrei_shes_the_man_2006",
+      "type": "movie",
+      "name": "She's the Man – Voll mein Typ!",
+      "poster": "https://i.ebayimg.com/images/g/y9wAAOSwqsxkyiHn/s-l1200.jpg",
+      "background": "https://i.ebayimg.com/images/g/y9wAAOSwqsxkyiHn/s-l1200.jpg",
+      "description": "She's the Man – Voll mein Typ! (2006)",
+      "releaseInfo": "2006",
+      "runtime": "1 h 45 min",
+      "streams": []
+    }
+  ]
 }
